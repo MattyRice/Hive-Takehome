@@ -2,6 +2,16 @@
 
 A flexible, reusable, and accessible dropdown component built from scratch without relying on any component libraries. This dropdown supports both single and multi-select modes with various additional features for enhanced usability.
 
+## Live Demo
+
+Check out the live demo: [https://hive-takehome.vercel.app](https://hive-takehome.vercel.app)
+
+The live demo showcases:
+- Single-select dropdown with searchable functionality
+- Multi-select dropdown with select/deselect all capability
+- Performance test with 1,000 items
+- Virtualized dropdown handling 10,000 items efficiently
+
 ## Features
 
 - **Single and Multi-select Modes**: Flexible support for both selection modes
@@ -124,4 +134,4 @@ The standard `Dropdown` component works well for lists with up to several hundre
 
 ## Styling
 
-The dropdown can be styled by modifying the `Dropdown.css` file or by providing a custom class name via the `className` prop and defining styles for it in your CSS. 
+The dropdown can be styled by modifying the `Dropdown.css` file or by providing a custom class name via the `className` prop and defining styles for it in your CSS.

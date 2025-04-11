@@ -12,6 +12,68 @@ The live demo showcases:
 - Performance test with 1,000 items
 - Virtualized dropdown handling 10,000 items efficiently
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14.0 or later recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/custom-dropdown.git
+   cd custom-dropdown
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or if you use yarn
+   yarn install
+   ```
+
+### Running the Project
+
+To start the development server:
+```bash
+npm run dev
+# or with yarn
+yarn dev
+```
+
+This will start the application at `http://localhost:5173/` (or another port if 5173 is in use).
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+# or with yarn
+yarn build
+```
+
+The built files will be in the `dist` directory.
+
+### Using the Components in Your Project
+
+If you want to use these dropdown components in your own project:
+
+1. Copy the following files to your project:
+   - `src/components/Dropdown.jsx`
+   - `src/components/Dropdown.css` 
+   - `src/components/VirtualizedDropdown.jsx` (if you need virtualization)
+
+2. Import the components as needed:
+   ```jsx
+   import Dropdown from './path/to/Dropdown';
+   // or
+   import VirtualizedDropdown from './path/to/VirtualizedDropdown';
+   ```
+
+3. Use them in your components as shown in the usage examples section.
+
 ## Features
 
 - **Single and Multi-select Modes**: Flexible support for both selection modes

@@ -56,24 +56,6 @@ yarn build
 
 The built files will be in the `dist` directory.
 
-### Using the Components in Your Project
-
-If you want to use these dropdown components in your own project:
-
-1. Copy the following files to your project:
-   - `src/components/Dropdown.jsx`
-   - `src/components/Dropdown.css` 
-   - `src/components/VirtualizedDropdown.jsx` (if you need virtualization)
-
-2. Import the components as needed:
-   ```jsx
-   import Dropdown from './path/to/Dropdown';
-   // or
-   import VirtualizedDropdown from './path/to/VirtualizedDropdown';
-   ```
-
-3. Use them in your components as shown in the usage examples section.
-
 ## Features
 
 - **Single and Multi-select Modes**: Flexible support for both selection modes

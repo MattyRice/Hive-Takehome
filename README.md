@@ -23,7 +23,7 @@ The live demo showcases:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/custom-dropdown.git
+   git clone [https://github.com/yourusername/custom-dropdown.git](https://github.com/MattyRice/Hive-Takehome.git)
    cd custom-dropdown
    ```
 

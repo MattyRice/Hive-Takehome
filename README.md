@@ -24,7 +24,6 @@ The live demo showcases:
 1. Clone the repository:
    ```bash
    git clone https://github.com/MattyRice/Hive-Takehome.git
-   cd custom-dropdown
    ```
 
 2. Install dependencies:
